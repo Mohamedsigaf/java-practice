@@ -1,0 +1,33 @@
+package pack2;
+
+import pack.Human;
+import pack.Alien;
+
+public class Student {
+	
+	public void school() {
+		
+		System.out.println("the little flower");
+	}
+	public void college() {
+		
+		System.out.println("ksr college");
+	}
+	
+	public static void main(String[] args) {
+		
+		Student s = new Student();
+		s.school();
+		s.college();
+		
+		
+		Human o = new Human();
+		o.eat();
+		o.sing();
+		
+		Alien a = new Alien();
+		a.spece();
+	}
+	
+
+}
