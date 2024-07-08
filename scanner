@@ -1,0 +1,65 @@
+package pack4;
+
+import java.util.Scanner;
+
+public class Scan {
+	
+	public static void main(String[] args) {
+		
+		Scanner r = new Scanner(System.in);
+		
+		System.out.println("Enter the full Name");
+		String nextline  = r.nextLine();
+		System.out.println(nextline);
+		
+		System.out.println("Enter the name");
+		String next = r.next();
+		System.out.println(next);
+		
+		System.out.println("Enter the age");
+		byte nextByte = r.nextByte();
+		System.out.println(nextByte);
+		
+		System.out.println("Enter the year of birth");
+		short nextShort =  r.nextShort();
+		System.out.println(nextShort);
+		
+		System.out.println("Enter the pincode");
+		int nextInt = r.nextInt();
+		System.out.println(nextInt);
+		
+		System.out.println("Enter the contect");
+		long nextLong = r.nextLong();
+		System.out.println(nextLong);
+		
+		System.out.println("Enter the product price");
+		float nextFloat = r.nextFloat();
+		System.out.println(nextFloat);
+		
+		System.out.println("percentage");
+		double nextDouble = r.nextDouble();
+		System.out.println(nextDouble);
+		
+		System.out.println("it's useful");
+		boolean nextBoolean = r.nextBoolean();
+		System.out.println(nextBoolean);
+	}
+
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+
