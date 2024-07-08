@@ -1,0 +1,30 @@
+package pack;
+
+public class Alien {
+	
+	public void spece() {
+		
+		System.out.println("other planet");
+	}
+	public void telescope() {
+		
+		System.out.println("universe"); 
+	}
+	
+	public static void main(String[] args) {
+		
+		Alien a = new Alien();
+		a.spece();
+		a.telescope();
+		
+		Human o = new Human();
+		o.sing();
+		o.dance();
+		o.eat();
+
+		
+	} 
+	
+	
+
+}
