@@ -1,3 +1,4 @@
+//single inheritance
 package pack5;
 
 public class parent {
@@ -46,6 +47,32 @@ public class child extends parent {
 	}
 }
 
+multi  level inheritance
+
+package pack5;
+
+public class child extends parent {
+	
+	public void phone() {
+		System.out.println("redmi");
+	}
+	
+	public void bike() {
+		System.out.println("duke");
+	}
+	
+	public static void main(String[] args) {
+		
+		child c = new child();
+		c.phone();
+		c.bike();
+		
+		c.tnagar();
+		c.mettukuppam();
+			
+		c.food();
+	}
+}
 
 
 
