@@ -51,6 +51,17 @@ multi  level inheritance
 
 package pack5;
 
+public class grandparent {
+	
+	public void food() {
+		System.out.println("snacks");
+	}
+
+}
+
+
+package pack5;
+
 public class child extends parent {
 	
 	public void phone() {
