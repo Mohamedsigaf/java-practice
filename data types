@@ -1,0 +1,33 @@
+package pack3;
+
+public class DataTypes {
+	
+	public static void main(String[] args) {
+		
+		
+		byte age = 21;
+		System.out.println(age);
+		
+		short s = 3453;
+		System.out.println(s);
+		
+		int phone = 12345678;
+		System.out.println(phone);
+		
+		long lion = 12345678910111213l;
+		System.out.println(lion);
+		
+		flaot f = 3455.54433f;
+		System.out.println(f);
+		
+		double d = 1234.3242624626462d;
+		System.out.println(d);
+		
+		char c = 's';
+		System.out.println(c);
+		
+		String str ="welcome";
+		System.out.println(str);
+	}
+
+}
