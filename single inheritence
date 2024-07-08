@@ -1,0 +1,51 @@
+package pack5;
+
+public class parent {
+	
+	public void tnagar() {
+		System.out.println("property");
+	}
+	public void mettukuppam() {
+		System.out.println("jewels");
+	}
+	
+	public static void main(String[] args) {
+		
+		parent p = new parent();
+		p.tnagar();
+		p.mettukuppam();
+		
+	}
+
+}
+
+//different class 
+
+package pack5;
+
+public class child extends parent {
+	
+	public void phone() {
+		System.out.println("redmi");
+	}
+	
+	public void bike() {
+		System.out.println("duke");
+	}
+	
+	public static void main(String[] args) {
+		
+		child c = new child();
+		c.phone();
+		c.bike();
+		
+		c.tnagar();
+		c.mettukuppam();
+			
+		
+	}
+}
+
+
+
+
