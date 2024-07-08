@@ -1,0 +1,24 @@
+package pack;
+
+public class Human {
+	public void sing()
+	{
+		System.out.println("greenlight");
+	}
+	public void dance() {
+		System.out.println("kuthu song");
+	}
+	public void eat()
+	{
+		System.out.println("biriyani");
+	}
+	public static void main(String[] args) {
+		
+		Human o = new Human();
+		o.sing();
+		o.dance();
+		o.eat();
+		
+	} 
+
+}
