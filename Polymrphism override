@@ -1,0 +1,45 @@
+package pack5;
+
+public class Canditate {
+	
+	public void homeloan(int a) {
+		
+		System.out.println("Loan amount="+a);
+	}
+	public void marriageloan(float b) {
+		System.out.println("loan amount="+b);
+	}
+	public static void main(String[] args) {
+		
+		Canditate c = new Canditate();
+		c.homeloan(50000);
+		c.marriageloan(30000);
+	}
+
+}
+
+//sub  class
+
+package pack5;
+
+public class StateBank extends Canditate {
+	
+	@Override
+	public void homeloan(int a) {
+		// TODO Auto-generated method stub
+		super.homeloan(a);
+	}
+	@Override
+	public void marriageloan(float b) {
+		// TODO Auto-generated method stub
+		super.marriageloan(b);
+	}
+	public static void main(String[] args) {
+		
+		StateBank s = new StateBank();
+		s.homeloan(55000);
+		s.marriageloan(35000.23f);
+	}
+	
+
+}
