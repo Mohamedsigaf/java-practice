@@ -85,5 +85,58 @@ public class child extends parent {
 	}
 }
 
+//hierachical inheritance
+
+package pack4;
+
+public class Mom {
+	
+	public void food() {
+		System.out.println("Biriyani");
+	}
+	public void saree() {
+		System.out.println("silk");
+	}
+	public void jewels() {
+		System.out.println("gold");
+	}
+
+}
+//child1 class
+
+package pack4;
+
+public class Child1 extends Mom{
+	
+	public void amazon() {
+		System.out.println("bags");
+		
+	}
+	public static void main(String[] args) {
+		
+		Child1 c = new Child1();
+		c.amazon();
+		c.food();
+		
+	}
+
+}
+//child2 class
+
+package pack4;
+
+public class Child2 extends Mom{
+	public void flipcart() {
+		System.out.println("watch");
+	}
+	public static void main(String[] args) {
+		
+		Child2 c = new Child2();
+		c.flipcart();
+		c.jewels();
+		c.saree();
+		
+	}
+}
 
 
