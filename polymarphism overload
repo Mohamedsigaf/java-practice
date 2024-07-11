@@ -1,0 +1,21 @@
+package pack5;
+
+public class overload {
+
+	public void food (int a) {
+		System.out.println("Integer =" + a);
+	}
+	public void food (float b) {
+		System.out.println("price of food =" +b);
+	}
+	public void food (String s) {
+		System.out.println("words ="+s);	
+	}
+	public static void main(String[] args) {
+		
+		overload o = new overload();
+		o.food(5);
+		o.food(500.4f);
+		o.food("biriyani");
+	}
+}
