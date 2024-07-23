@@ -122,5 +122,78 @@ public class Stringclasss {
 	}
 
 }
+//String methods
+package Pack7;
+
+public class StringClass {
+	public static void main(String[] args) {
+		
+	
+	
+	String s = "Hello";
+	String s1 = "hello";
+	//Length
+	System.out.println(s.length());
+	
+	//indexOf
+	System.out.println(s.indexOf("l"));
+	
+	//lastindexOf
+	System.out.println(s.lastIndexOf("l"));
+	//charAt(index)
+	System.out.println(s.charAt(4));
+	//touppercase
+	System.out.println(s1.toUpperCase());
+	
+	//tolowercase
+	System.out.println(s1.toLowerCase());
+	//concat
+	System.out.println(s.concat(" world"));
+	s = s + "world";
+	
+	String s3 = "  hello    ";
+	 
+	System.out.println(s3.trim());
+	
+	String replace = s3.replace("hello","hi");
+	System.out.println(replace);
+	
+	String a = "abcd" ;
+	String b = "ABCD" ;
+	
+	boolean equals = a.equals(b);
+	System.out.println(equals);
+	
+	boolean equalsIgnoreCase = a.equalsIgnoreCase(b);
+	System.out.println(equalsIgnoreCase);
+	
+	boolean contain = a.contains("a");
+	System.out.println(contain);
+	
+	String A = "mohamed sigaf";
+	
+	String substring = A.substring(6);
+	System.out.println(substring);
+	
+	String substring1 = A.substring(0, 13);
+	System.out.println(substring1);
+	
+	String c = "SIGAFttoig";
+	String substring3 = c.substring(4);
+	System.out.println(substring3);
+	
+ 	
+	
+	
+	
+	
+
+	
+	
+	
+	
+ 
+	}
+}
 
  
