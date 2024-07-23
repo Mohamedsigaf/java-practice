@@ -1,1 +1,126 @@
+//string types
+//literal 
+//non literal
+//immutable
+//mutable
+package Pack7;
+
+public class stringTypes {
+	
+	public static void main(String[] args) {
+		
+		String s1 = "JAVA";
+		String s2 = "JAVA";
+		
+		int identityHashcode = System.identityHashCode(s1);
+		System.out.println(identityHashcode);
+		int identityHashcode2 = System.identityHashCode(s2);
+		System.out.println(identityHashcode2);
+		
+		
+		String s3 = new String ("Welcome");
+		String s4 = new String("Welcome");
+		int identityHashcode3 = System.identityHashCode(s3);
+		System.out.println(identityHashcode3);
+		int identityHashcode4 = System.identityHashCode(s4);
+		System.out.println(identityHashcode4);
+		
+		
+		String s5 = "Greens";
+		String s6 = "Greens";
+		String concat = s5.concat(s6);
+		int identityHashcode5 = System.identityHashCode(s5);
+		System.out.println(identityHashcode5);
+		int identityHashcode6 = System.identityHashCode(s6);
+		System.out.println(identityHashcode6);
+		int identityHashcode7 = System.identityHashCode(concat);
+		System.out.println(identityHashcode7);
+		
+		StringBuffer s7 = new StringBuffer ("Manual");
+		StringBuffer s8 = new StringBuffer ("testing");
+		StringBuffer append =s7.append(s8);
+		int identityHashcode8 = System.identityHashCode(s7);
+		System.out.println( "."+identityHashcode8);
+		int identityHashcode9 = System.identityHashCode(s8);
+		System.out.println(identityHashcode9);
+		int identityHashcode10 = System.identityHashCode(append);
+		System.out.println(identityHashcode10);
+		
+		
+		
+	}
+	
+	
+
+}
+
+
+//String methods
+package Pack7;
+
+public class Stringclasss {
+	
+	public static void main(String[] args) {
+		
+		String s = "JAVA  .";
+		String s1 = "java";
+		String s2 = "Welcome to java class";
+		
+		int length = s.length();
+		System.out.println(length);
+		
+		String UpperCase = s.toUpperCase();
+		System.out.println(UpperCase);
+		
+		String LowerCase = s.toLowerCase();
+		System.out.println(LowerCase);
+		
+		int indexOf = s.indexOf("A");
+		System.out.println(indexOf);
+		
+		int lastIndexOf = s.lastIndexOf("A");
+		System.out.println(lastIndexOf);
+		
+		char charAt = s.charAt(2);
+		System.out.println(charAt);
+		
+		
+		boolean equals = s.equals(s1);
+		System.out.println(equals);
+		
+		boolean equalsIgnoreCase = s.equalsIgnoreCase(s1);
+		System.out.println(equalsIgnoreCase);
+		
+		boolean contains = s.contains("VA");
+		System.out.println(contains);
+		
+		
+		String replace = s.replace("JAVA","JAVA PROGRAM");
+		System.out.println(replace);
+		
+		boolean startsWith = s.startsWith("JA");
+		System.out.println(startsWith);
+		
+		boolean endsWith = s.endsWith("VA");
+		System.out.println(endsWith);
+		
+		boolean isEmpty = s.isEmpty();
+		System.out.println(isEmpty);
+		
+		String trim = s.trim();
+		System.out.println(trim);
+		
+		String substring = s1.substring(2);
+		System.out.println(substring);
+		
+		String substring1 = s2.substring(0,2);
+		System.out.println(substring1);
+		
+		
+		
+		
+	}
+
+}
+
  
